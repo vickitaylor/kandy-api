@@ -183,6 +183,12 @@
       "productTypeId": 4,
       "price": 1.49,
       "id": 10
+    },
+    {
+      "name": "Spree",
+      "productTypeId": 2,
+      "price": 2.15,
+      "id": 11
     }
   ],
   "productTypes": [
