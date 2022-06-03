@@ -1,0 +1,218 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Fancy Pinkerton",
+      "email": "fancy@gmail.com",
+      "isStaff": false
+    },
+    {
+      "id": 2,
+      "name": "Blossom Blaster",
+      "email": "blossom@gmail.com",
+      "isStaff": false
+    },
+    {
+      "id": 3,
+      "name": "Lake Lifeflight",
+      "email": "lake@gmail.com",
+      "isStaff": false
+    },
+    {
+      "id": 4,
+      "name": "Sunride Swindle",
+      "email": "sunride@gmail.com",
+      "isStaff": false
+    },
+    {
+      "id": 5,
+      "name": "Starcloud Goldkiss",
+      "email": "starcloud@gmail.com",
+      "isStaff": true
+    },
+    {
+      "id": 6,
+      "name": "Ocean Naturenik",
+      "email": "ocean@gmail.com",
+      "isStaff": true
+    },
+    {
+      "id": 7,
+      "name": "Clover Sunfreak",
+      "email": "clover@gmail.com",
+      "isStaff": true
+    },
+    {
+      "id": 8,
+      "name": "Sunshine Sparklesheen",
+      "email": "sunshine@gmail.com",
+      "isStaff": true
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "userId": 1,
+      "loyaltyNumber": 11111
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "loyaltyNumber": 22222
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "loyaltyNumber": 33333
+    },
+    {
+      "id": 4,
+      "userId": 4,
+      "loyaltyNumber": 44444
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "userId": 5,
+      "startDate": "2022-05-27",
+      "payRate": 10.5,
+      "locationId": 1
+    },
+    {
+      "id": 2,
+      "userId": 6,
+      "startDate": "2021-04-25",
+      "payRate": 12,
+      "locationId": 2
+    },
+    {
+      "id": 3,
+      "userId": 7,
+      "startDate": "2020-03-02",
+      "payRate": 17.58,
+      "locationId": 3
+    },
+    {
+      "id": 4,
+      "userId": 8,
+      "startDate": "2015-08-05",
+      "payRate": 24.75,
+      "locationId": 4
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "address": "452 Cottage Street",
+      "sqft": 525
+    },
+    {
+      "id": 2,
+      "address": "9779 Myers Drive",
+      "sqft": 797
+    },
+    {
+      "id": 3,
+      "address": "546 Beaver Ridge Street",
+      "sqft": 1450
+    },
+    {
+      "id": 4,
+      "address": "9431 High Point Road",
+      "sqft": 1685
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Pop Rocks",
+      "productTypeId": 2,
+      "price": 2.75
+    },
+    {
+      "id": 2,
+      "name": "Blow Pop",
+      "productTypeId": 4,
+      "price": 0.99
+    },
+    {
+      "id": 3,
+      "name": "Red Bounty",
+      "productTypeId": 1,
+      "price": 1.85
+    },
+    {
+      "id": 4,
+      "name": "M&M's Minis",
+      "productTypeId": 1,
+      "price": 1.75
+    },
+    {
+      "id": 5,
+      "name": "Runts",
+      "productTypeId": 2,
+      "price": 2.75
+    },
+    {
+      "id": 6,
+      "name": "Laffy Taffy",
+      "productTypeId": 3,
+      "price": 0.85
+    },
+    {
+      "id": 7,
+      "name": "Warheads",
+      "productTypeId": 2,
+      "price": 0.75
+    },
+    {
+      "id": 8,
+      "name": "Bubble Tape",
+      "productTypeId": 5,
+      "price": 3.5
+    },
+    {
+      "name": "Skittles",
+      "productTypeId": 3,
+      "price": 0.75,
+      "id": 9
+    },
+    {
+      "name": "Ring Pop",
+      "productTypeId": 4,
+      "price": 1.49,
+      "id": 10
+    }
+  ],
+  "productTypes": [
+    {
+      "id": 1,
+      "type": "Chocolate"
+    },
+    {
+      "id": 2,
+      "type": "Hard Candy"
+    },
+    {
+      "id": 3,
+      "type": "Gummies"
+    },
+    {
+      "id": 4,
+      "type": "Lollipop"
+    },
+    {
+      "id": 5,
+      "type": "Gum"
+    }
+  ],
+  "purchases": [
+    {
+      "id": 1,
+      "customerId": 2,
+      "productId": 5,
+      "amount": 2
+    }
+  ]
+}
