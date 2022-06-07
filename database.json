@@ -47,6 +47,18 @@
       "name": "Sunshine Sparklesheen",
       "email": "sunshine@gmail.com",
       "isStaff": true
+    },
+    {
+      "name": "Moonspice Flitterflight",
+      "email": "moonspice@gmail.com",
+      "isStaff": true,
+      "id": 9
+    },
+    {
+      "name": "Dazzlestar Quickbeam",
+      "email": "dazzle@gmail.com",
+      "isStaff": true,
+      "id": 10
     }
   ],
   "customers": [
@@ -76,14 +88,14 @@
       "id": 1,
       "userId": 5,
       "startDate": "2022-05-27",
-      "payRate": 10.5,
+      "payRate": 10.54,
       "locationId": 1
     },
     {
       "id": 2,
       "userId": 6,
       "startDate": "2021-04-25",
-      "payRate": 12,
+      "payRate": 12.05,
       "locationId": 2
     },
     {
@@ -99,6 +111,20 @@
       "startDate": "2015-08-05",
       "payRate": 24.75,
       "locationId": 4
+    },
+    {
+      "userId": 9,
+      "startDate": "2022-02-06",
+      "payRate": 10.54,
+      "locationId": 2,
+      "id": 5
+    },
+    {
+      "userId": 10,
+      "startDate": "2021-02-17",
+      "payRate": 14.78,
+      "locationId": 2,
+      "id": 6
     }
   ],
   "locations": [
@@ -189,6 +215,18 @@
       "productTypeId": 2,
       "price": 2.15,
       "id": 11
+    },
+    {
+      "name": "Heath Bar",
+      "productTypeId": 1,
+      "price": 1.65,
+      "id": 12
+    },
+    {
+      "name": "Gummy Bears",
+      "productTypeId": 3,
+      "price": 3.48,
+      "id": 13
     }
   ],
   "productTypes": [
