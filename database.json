@@ -31,12 +31,6 @@
       "isStaff": true
     },
     {
-      "id": 6,
-      "name": "Ocean Naturenik",
-      "email": "ocean@gmail.com",
-      "isStaff": true
-    },
-    {
       "id": 7,
       "name": "Clover Sunfreak",
       "email": "clover@gmail.com",
@@ -70,12 +64,12 @@
     {
       "id": 2,
       "userId": 2,
-      "loyaltyNumber": 22222
+      "loyaltyNumber": 55789
     },
     {
       "id": 3,
       "userId": 3,
-      "loyaltyNumber": 33333
+      "loyaltyNumber": 52675
     },
     {
       "id": 4,
@@ -90,13 +84,6 @@
       "startDate": "2022-05-27",
       "payRate": 10.54,
       "locationId": 1
-    },
-    {
-      "id": 2,
-      "userId": 6,
-      "startDate": "2021-04-25",
-      "payRate": 12.05,
-      "locationId": 2
     },
     {
       "id": 3,
@@ -257,6 +244,30 @@
       "customerId": 2,
       "productId": 5,
       "amount": 2
+    },
+    {
+      "customerId": 3,
+      "productId": 13,
+      "amount": 1,
+      "id": 2
+    },
+    {
+      "customerId": 3,
+      "productId": 11,
+      "amount": 1,
+      "id": 3
+    },
+    {
+      "customerId": 4,
+      "productId": 3,
+      "amount": 1,
+      "id": 4
+    },
+    {
+      "customerId": 4,
+      "productId": 9,
+      "amount": 1,
+      "id": 5
     }
   ]
 }
