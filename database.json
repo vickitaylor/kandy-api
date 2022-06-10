@@ -53,13 +53,19 @@
       "email": "dazzle@gmail.com",
       "isStaff": true,
       "id": 10
+    },
+    {
+      "name": "Stargazer Hollystorm",
+      "email": "stargazer@gmail.com",
+      "isStaff": true,
+      "id": 12
     }
   ],
   "customers": [
     {
       "id": 1,
       "userId": 1,
-      "loyaltyNumber": 11111
+      "loyaltyNumber": 57431
     },
     {
       "id": 2,
@@ -112,6 +118,13 @@
       "payRate": 14.78,
       "locationId": 2,
       "id": 6
+    },
+    {
+      "userId": 12,
+      "startDate": "2019-06-01",
+      "payRate": 10.41,
+      "locationId": 2,
+      "id": 8
     }
   ],
   "locations": [
@@ -214,6 +227,12 @@
       "productTypeId": 3,
       "price": 3.48,
       "id": 13
+    },
+    {
+      "name": "Salt Water Taffy",
+      "productTypeId": 3,
+      "price": 5.95,
+      "id": 14
     }
   ],
   "productTypes": [
@@ -268,6 +287,24 @@
       "productId": 9,
       "amount": 1,
       "id": 5
+    },
+    {
+      "customerId": 3,
+      "productId": 13,
+      "amount": 1,
+      "id": 6
+    },
+    {
+      "customerId": 3,
+      "productId": 6,
+      "amount": 1,
+      "id": 7
+    },
+    {
+      "customerId": 1,
+      "productId": 8,
+      "amount": 1,
+      "id": 8
     }
   ]
 }
